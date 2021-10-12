@@ -1,0 +1,11 @@
+1) Dado é um valor qualquer, como um inteiro ou uma String. No caso dos bancos de dados
+   dados são aquilo que é armazenado pelo sistema.
+
+2) Informação é o resultado do processamento de um dado. No caso dos banco de dados a informação é o significado dos 
+   dados que estão sendo armazenados 
+
+3) Um arquivo convencional é um arquivo de um tipo qualquer que apenas armazena dados
+
+4) Um banco de dados pode ser visto como uma união de varios arquivos, que estariam separados, sem ter as redundancias
+   que a simples união desses arquivos teria. Além disso, o banco de dados possui  uma serie de operações que visam manter  
+   a saude daqueles dados que estão armazenado.
