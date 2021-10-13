@@ -1,0 +1,8 @@
+1) Esse modelo registra quais dados estarão no banco de dados, descrevendo a estrutura do
+   banco de dados sem levar em conta o sistema de gerenciamento de banco de dados
+
+2) Esse modelo irá descrever os dados do banco de dados pelo ponto de vista do usuario de
+   um sistema de gerenciamento de banco de dados
+
+3) Esse modelo irá descrever os detalhes tecnicos do banco de dados, especificando, por exemplo
+   a maneiro com a qual os dados serão armazenados e os scripts de criação de objetos
