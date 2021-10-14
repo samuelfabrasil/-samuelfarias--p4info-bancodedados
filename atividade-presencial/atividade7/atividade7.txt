@@ -1,0 +1,4 @@
+Um modelo de banco de dados para refletir o seu aspecto temporal é um modelo que se difere 
+do modelo convencional bidimensional, com uma dimensão representando as instancias de um objeto
+e outra os atributos desse objeto. Tal modelo temporal adiciona uma terceira dimensão que irá 
+armazenar os dados baseados no seu tempo, sendo essa terceira dimensão a adaptação computacional do tempo.
