@@ -1,0 +1,19 @@
+a) Cardinalidade maxima: descreve a quantidade de maxima de ocorrencias de uma entidade
+   que podem se relacionar com uma ocorrencia da entidade em questão
+   ex: Um empregado pode se relacionar com no máximo um departamento. Já um departamento pode
+       se relacionar com vários empregados
+
+   Cardinalidade minima descreve a quantidade de minima de ocorrencias de uma entidade
+   que podem se relacionar com uma ocorrencia da entidade em questão
+   ex: um empregado deve está relacionado com no minimo 1 mesa, já uma mesa não precisa necessariamente
+       está associada a um empregado
+
+
+b) exemplo 1:1: em uma relação casamento uma ocorrencia da entidade pessoa(marido) pode se relacionar
+   somente com uma ocorrencia da entidade pessoa(esposa) e vice-versa.
+
+c) exemplo 1:n: uma ocorrencia da entidade aluno só pode se relacionar com uma ocorrencia da entidade departamento, mas
+   uma ocorrencia da entidade departamento pode se relacionar com diversos alunos 
+
+d) exemplo n:n: uma ocorrencia da entidade aluno pode se relacionar com diversas ocorrencias da entidade disciplina e
+   uma ocorrencia da entidade disciplina pode se relacionar com diversos alunosm 
