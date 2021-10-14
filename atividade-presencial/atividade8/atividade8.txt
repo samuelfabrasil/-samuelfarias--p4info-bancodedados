@@ -1,0 +1,18 @@
+a) uma tabela é um conjunto de dados relacionados organizados em linhas e colunas
+
+b) uma chave primaria é o atributo usado para identificar um registro de uma tabela
+
+c) uma chave estrageira é uma coluna ou um grupo de colunas que linka uma tabela com outra
+
+d) uma chave alternativa é uma chave que não é uma chave primaria, mas é uma possível candidata
+
+e) valores que podem ser usados na coluna
+
+f) a integridade do dominio é quando os valores de uma coluna seguem as limitações que a foram colocadas
+
+g) a integridade de vazio é o que define se adicionar um valor a uma determinada coluna é obrigatorio ou não
+
+h) a integridade de chave é quando se mantem todas as chaves primarias com valores distintos para não haver conflito na identificação dos registros
+
+i) integridade referencial é a limitação que padroniza o uso da chave estrageira de uma tabela como sendo a chave primaria da tabela com a qual mantem relação
+   assim evitando que caso essa tabela da primary key seja apagada a outra tabela perca seu significado.
