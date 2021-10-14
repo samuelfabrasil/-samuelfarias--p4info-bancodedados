@@ -1,0 +1,27 @@
+a) definindo a tabela
+CREATE TABLE Students (
+    Id int NOT NULL,
+    Name varchar(255),
+    Period int,
+    Course varchar(255),
+    PRIMARY KEY (Id)
+);
+
+Adicionando valores:
+
+INSERT INTO Students(Name, Period, Course) Values
+("Samuel Farias",4,"Informatica");
+("Jorge",4,"Quimica");
+Lendo valores:
+
+SELECT * FROM Students;
+
+Atualizando valores:
+
+UPDATE Students
+SET Period = 5
+WHERE Id = 1 
+
+Deletando valores
+
+DELETE FROM Students WHERE Id = 2
