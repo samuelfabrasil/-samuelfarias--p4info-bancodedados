@@ -1,0 +1,15 @@
+1) uma entidade é um conjunto de objetos que você deseja manter informações no banco de dados
+
+2) um relacionamento é um conjunto de associações entre instancias de entidades 
+
+3) um atributo é um dado que é associado a uma instacia de uma entidade
+
+4) um dominio de um atributo conjunto de valores que um atributo pode assumir
+
+5) o conceito de generalização/especialização é um conceito que nos permite atribuir propriedades
+   particulares à subdivisões de uma entidade
+ 
+6) uma entidade associativa é um relacionamente que passa a ser tratado tambem como uma entidade
+
+7) a cardinalidade de um atributo define quantos valores desse atributo podem estar
+   associados com a instancia/ relacionamento que ele pertence
