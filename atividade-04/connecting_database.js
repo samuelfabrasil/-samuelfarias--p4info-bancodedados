@@ -11,7 +11,7 @@ db.serialize(() => {
     db.run('create table if not exists TB_ALUNO (id integer primary key autoincrement , nome text)', (error) => {
         if (error) console.log(error);
     });
-    db.run('create table if not exists TB_ALUNO_DISCIPLINA (periodo integer,nota float,id_al integer,id_di integer, foreign key(id_al) references TB_ALUNOS(id),foreign key(id_di) references TB_DISCIPLINA(id),primary key(id_al,id_di))', (error) => {
+    db.run('create table if not exists TB_ALUNO_DISCIPLINA (periodo integer,nota float,id_al integer,id_di integer, foreign key(id_al) references TB_ALUNO(id),foreign key(id_di) references TB_DISCIPLINA(id),primary key(id_al,id_di))', (error) => {
         if (error) console.log(error);
     });
     db.run('create table if not exists TB_DISCIPLINA (id integer primary key autoincrement , nome text)', (error) => {
@@ -73,6 +73,7 @@ db.run(sql, disciplina_alunos, function(err) {
     return console.error(err.message);
   }
 });
+
 
 db.serialize(() => {
     console.log('TB_ALUNO')
